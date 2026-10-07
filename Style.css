@@ -75,6 +75,13 @@ a{
     height: var(--header-height);
 }
 
+.nav__logo {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  font-weight: var(--font--semibold);
+}
+
 .nav__logo,
 .nav__burger,
 .nav__close{
