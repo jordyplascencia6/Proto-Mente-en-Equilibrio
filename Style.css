@@ -401,3 +401,9 @@ a{
     padding: 13px 30px;
     border-radius: 32px;
 }
+
+.informationgeneral{
+  overflow: hidden;
+  background-size: 100% 100%;
+  background-image: url('img/fondo2.png');
+}
