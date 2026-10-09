@@ -13,7 +13,7 @@
   font-style: normal;
 
   --body-font: "Montserrat", sans-serif;
-  --body-color: #fff;
+  --body-color: #e8f5f1;
   --normal-font-size: .938rem;
 
   --z-fixed: 100;
@@ -327,5 +327,77 @@ a{
 }
 
 .servicios{
-  background-color: #e8f5f1;
+  text-align: center;
+}
+
+.servicio__paragrah{
+  line-height: 1.7;
+}
+
+.servicios__icons{
+  gap: 1em;
+  display: grid;
+  justify-items: center;
+  width: 260px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.servicio__icon{
+  font-size: 50px;
+}
+
+.servicios__main{
+  padding-top: 80px;
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  gap: 1em;
+  overflow: hidden;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.sub-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;                 /* espacio entre las líneas y el texto */
+  color: #0f7c82;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sub-sub::before,
+.sub-sub::after {
+  content: "";
+  width: 40px;               /* largo de la línea */
+  height: 1px;               /* grosor */
+  background-color: #0f7c82; /* mismo color del texto */
+}
+
+.servicios h2 {
+  text-align: center;
+  color: #0f4c5c;
+}
+
+.cta2 {
+    display: inline-block;
+    background-color: transparent;
+    justify-self: center;
+    color: #2e9e8f;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+}
+
+.cta2:hover {
+    display: inline-block;
+    background-color: #2e9e8f;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
 }
