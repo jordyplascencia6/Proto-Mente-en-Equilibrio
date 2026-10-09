@@ -12,55 +12,61 @@
 </head>
 <body>
 
-    <!----Menu Fijo-->
-    <header class="header">
-        <nav class="nav container">
-            <div class="nav__data">
-                <a href="#" class="nav__log">
-                    <img src="/img/logosencillo.png" alt="" class="logo">
-                </a>
+   <!----Menu Fijo-->
+   <header class="header">
+      <nav class="nav container">
+         <div class="nav__data">
+               <a href="#" class="nav__log">
+                  <img src="/img/logosencillo.png" alt="" class="logo">
+               </a>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line nav__burger"></i>
-                    <i class="ri-close-circle-line nav__close"></i>
-                </div>
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-circle-line nav__close"></i>
+            </div>
+         </div>
+
+         <!--NAV Menu-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="#" class="nav__link">Home</a></li>
+
+               <li><a href="#" class="nav__link">About Us</a></li>
+
+               <li><a href="#" class="nav__link">Our Services</a></li>
+
+               <li><a href="#" class="nav__link">Contact</a></li>
+
+               <li><a href="#" class="nav__link login"><i class="ri-user-line dropdown__arrow"></i>Log In</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+
+   <main>
+      <section class="bienvenida">
+         <div class="welcome__container contenedor">
+            <div class="bienvenida-text">
+               <h2 class="subtitle">Bienestar mental en el entorno laboral</h2>
+               <p class="welcome__paragraph">En Mente en Equilibrio ayudamos a las empresas a fortalecer el bienestar emocional de sus equipos, a traves de talleres, platicas y herramientas practicas de psicologia</p>
+               <a href="#" class="cta"><i class="ri-arrow-right-line"></i>Contactanos</a>
             </div>
 
-            <!--NAV Menu-->
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li><a href="#" class="nav__link">Home</a></li>
+            <figure class="welcome__picture">
+               <img src="img/logo.png" class="welcome__logo">
+            </figure>
+         </div>
+      </section>
 
-                  <li><a href="#" class="nav__link">About Us</a></li>
+      <section class="servicios contenedor">
+         <h3 class="sub-sub">Nuestros Servicios</h3>
+         <h2 class="subtitle">Herramientas para un mejor equipo</h2>
+         <p>Ofrecemos soluciones personalizadas para promover la salud mental, mejorar la comunicacion y aumentar la productividad en tu empresa.</p>
+      </section>
+   </main>
+   
 
-                  <li><a href="#" class="nav__link">Our Services</a></li>
-
-                  <li><a href="#" class="nav__link">Contact</a></li>
-
-                  <li><a href="#" class="nav__link login"><i class="ri-user-line dropdown__arrow"></i>Log In</a></li>
-               </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="bienvenida">
-      <h1>bienestar mental en el entorno laboral</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate eius atque, tenetur harum mollitia explicabo, quod placeat, soluta a delectus vitae voluptatibus dignissimos illum? Magni ullam ad modi veniam.</p>
-
-    </div>
-
-    <div class="nosotros">
-      <h1>About Us</h1>
-    </div>
-
-    <div class="servicios">
-      <h1>Our Services</h1>
-    </div>
-
-    <div class="contact">
-      <h1></h1>
-    </div>
-
-    <script src="commands.js"></script> 
+   <script src="commands.js"></script> 
 
 </body>
 </html>
